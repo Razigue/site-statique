@@ -1,3 +1,9 @@
+.montserrat-monserratfont {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
 /* mes couleurs principales */
 :root {
     --background: #ffffff;
@@ -6,14 +12,36 @@
     --greencol: #44dd8a;
     --gradient-blue: #15b7e2;
 }
+* {
+    max-width: 100%;
+}
 /*désactiver ma navbar desktop en mobilefirst */
 .header__nav-desktop {
     display: none;
 }
 
 body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: var(--background);
 }
+
+.header {
+    display: flex;
+    position: static;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    opacity: 1;
+    background-color: var(--darkbluecol);
+}
+.header__brand-image {
+    margin-left: 1.688rem;
+}
+.hamburger-menu {
+}
+
 /* menu burger */
 #menu__toggle {
     opacity: 0;
@@ -40,10 +68,10 @@ body {
     align-items: center;
     position: fixed;
     top: 20px;
-    left: 20px;
+    right: 20px;
 
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 
     cursor: pointer;
     z-index: 1;
@@ -76,7 +104,7 @@ body {
     position: fixed;
     visibility: hidden;
     top: 0;
-    left: -100%;
+    right: -100%;
 
     width: 300px;
     height: 100%;
@@ -108,4 +136,55 @@ body {
 }
 .menu__item:hover {
     background-color: #cfd8dc;
+}
+
+.header__brand-image {
+    width: 5.25rem;
+    height: 1.938rem;
+    opacity: 1;
+    top: 1.563rem;
+    right: 1.688rem;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    height: 28.125rem;
+    background: linear-gradient(
+            94.01deg,
+            rgba(68, 221, 138, 0.8) 3.11%,
+            rgba(21, 183, 226, 0.8) 98.45%
+        ),
+        url(/resources/author.png);
+    background-position: bottom;
+    background-size: cover;
+}
+.hero__title {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: auto;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.hero__text {
+    font-family: "Monserrat", sans serif;
+    font-size: 1.25rem;
+}
+.advantages__img {
+    width: 20.438rem;
+    height: 15.25rem;
+    opacity: 1;
+    top: 34.375rem;
+    left: 2.063rem;
+}
+
+.owncourse__img {
+    width: 20.25rem;
+    height: 15.188rem;
+    opacity: 1;
+    top: 7.438rem;
+    left: 2.125rem;
 }
