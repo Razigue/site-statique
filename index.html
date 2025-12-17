@@ -31,15 +31,19 @@
                         class="header__brand-image"
                     />
                 </a>
+                <a class="header__list-link" href="">Les formations</a>
             </div>
 
             <div class="header__nav-div">
-                <a class="header__list-link" href="">Les formations</a>
-                <input type="text" />
+                <input
+                    type="text"
+                    placeholder="Rechercher"
+                    class="header__nav-text"
+                />
             </div>
             <div class="header__list-item-log">
-                <a class="header__list-link" href="">Connexion</a>
-                <a class="header__list-link" href="">Inscription</a>
+                <a class="header__list-link connexion" href="">Connexion</a>
+                <a class="header__list-link inscription" href="">Inscription</a>
             </div>
             <div class="header__burger">
                 <img src="/assets/images/Icon.svg" alt="menu burger" />
@@ -59,20 +63,18 @@
                     En savoir plus
                 </button>
             </div>
-
+            <!--bloc1-->
             <div class="course">
                 <h2 class="course__title">Les formations populaires</h2>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body">
+                <div class="course__list">
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+
                         <h3 class="course__subtitle">Parler en public</h3>
                         <p class="course__text">
                             Sonia lefèvre | Coach prise de parole
@@ -99,22 +101,18 @@
                                 alt="Image d'une étoile"
                             />
                         </div>
-                        <p class="course__text-content" id="">
+                        <p class="course__text-content">
                             Gagnez en aisance et capter votre auditoire
                         </p>
                     </div>
-                </div>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body" id="course__body-stress">
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+
                         <h3 class="course__subtitle">Gérer le stress</h3>
                         <p class="course__text">Lucie Garnier | Formatrice</p>
 
@@ -145,18 +143,14 @@
                             Apprenez à rester serein face aux défis
                         </p>
                     </div>
-                </div>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body">
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+
                         <h3 class="course__subtitle">Travailler en équipe</h3>
                         <p class="course__text">David Moreau | Expert</p>
                         <div class="course__div-stars">
@@ -185,18 +179,14 @@
                             Collaborez efficacement, même à distance
                         </p>
                     </div>
-                </div>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body" id="course__body-temps">
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+
                         <h3 class="course__subtitle">Gérer son temps</h3>
                         <p class="course__text">
                             Claire Dumas | Coach organisation
@@ -232,189 +222,192 @@
                     <button class="course__cta">Voir plus de formation</button>
                 </div>
             </div>
-
+            <!--bloc2-->
             <div class="course" id="coursenew">
                 <h3 class="coursenew__title">Les formations récentes</h3>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price price-white">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body" id="course__body-comm">
-                        <h3 class="course__subtitle">Mieux communiquer</h3>
-                        <p class="course__text course__text-dark">
-                            Julien Martel | Coach en comm.
-                        </p>
-                        <div class="course__div-stars course__div-stars-dark">
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
+                <div class="course__list">
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price price-white">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
                         </div>
-                        <p
-                            class="course__text-content course__text-contet-dark"
-                        >
-                            Améliorez vos échanges et votre impact relationnel
-                        </p>
-                    </div>
-                </div>
-
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price price-white">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body" id="course__body-emotions">
-                        <h3 class="course__subtitle">Maîtriser ses émotions</h3>
-                        <p class="course__text">
-                            Amel Benali | Psy. du travail
-                        </p>
-                        <div class="course__div-stars">
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
+                        <div class="course__body" id="course__body-comm">
+                            <h3 class="course__subtitle text-white">
+                                Mieux communiquer
+                            </h3>
+                            <p class="course__text text-white">
+                                Julien Martel | Coach en comm.
+                            </p>
+                            <div
+                                class="course__div-stars course__div-stars-dark"
+                            >
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                            </div>
+                            <p class="course__text-content text-white">
+                                Améliorez vos échanges et votre impact
+                                relationnel
+                            </p>
                         </div>
-                        <p class="course__text-content">
-                            Développez calme et intelligence émotionnelle
-                        </p>
-                    </div>
-                </div>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price price-white">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body" id="course__body-prob">
-                        <h3 class="course__subtitle">Résoudre les problèmes</h3>
-                        <p class="course__text">Thomas Rivière | Expert</p>
-                        <div class="course__div-stars">
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star_empty.svg"
-                                alt="Image d'une étoile"
-                            />
-                        </div>
-                        <p class="course__text-content">
-                            Analysez, décidez et trouvez des solutions durables
-                        </p>
-                    </div>
-                </div>
-                <div class="course__div">
-                    <img
-                        src="/resources/img-course.png"
-                        alt="formation de prise de parole en public"
-                        class="course__img"
-                    />
-                    <div class="course__div-price price-white">
-                        <p class="course__div-price-main">15,99 €</p>
-                        <p class="course__div-price-alt">60 €</p>
-                    </div>
-                    <div class="course__body" id="course__body-positif">
-                        <h3 class="course__subtitle">Leadership positif</h3>
-                        <p class="course__text">Marc Nguyen | Consultant</p>
-                        <div class="course__div-stars">
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star.svg"
-                                alt="Image d'une étoile"
-                            />
-                            <img
-                                src="/assets/images/star_empty.svg"
-                                alt="Image d'une étoile"
-                            />
-                        </div>
-                        <p class="course__text-content">
-                            Inspirez, motivez et fédérez votre équipe
-                        </p>
                     </div>
 
-                    <div class="aligncta">
-                        <button class="course__cta-light">
-                            Voir plus de formation
-                        </button>
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price price-white">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+                        <div class="course__body" id="course__body-emotions">
+                            <h3 class="course__subtitle text-white">
+                                Maîtriser ses émotions
+                            </h3>
+                            <p class="course__text text-white">
+                                Amel Benali | Psy. du travail
+                            </p>
+                            <div class="course__div-stars">
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                            </div>
+                            <p class="course__text-content text-white">
+                                Développez calme et intelligence émotionnelle
+                            </p>
+                        </div>
                     </div>
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price price-white">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+                        <div class="course__body" id="course__body-prob">
+                            <h3 class="course__subtitle text-white">
+                                Résoudre les problèmes
+                            </h3>
+                            <p class="course__text text-white">
+                                Thomas Rivière | Expert
+                            </p>
+                            <div class="course__div-stars">
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star_empty.svg"
+                                    alt="Image d'une étoile"
+                                />
+                            </div>
+                            <p class="course__text-content text-white">
+                                Analysez, décidez et trouvez des solutions
+                                durables
+                            </p>
+                        </div>
+                    </div>
+                    <div class="course__div">
+                        <div class="course__img">
+                            <div class="course__div-price price-white">
+                                <p class="course__div-price-main">15,99 €</p>
+                                <p class="course__div-price-alt">60 €</p>
+                            </div>
+                        </div>
+                        <div class="course__body" id="course__body-positif">
+                            <h3 class="course__subtitle text-white">
+                                Leadership positif
+                            </h3>
+                            <p class="course__text text-white">
+                                Marc Nguyen | Consultant
+                            </p>
+                            <div class="course__div-stars">
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star.svg"
+                                    alt="Image d'une étoile"
+                                />
+                                <img
+                                    src="/assets/images/star_empty.svg"
+                                    alt="Image d'une étoile"
+                                />
+                            </div>
+                            <p class="course__text-content text-white">
+                                Inspirez, motivez et fédérez votre équipe
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aligncta">
+                    <button class="course__cta-light">
+                        Voir plus de formation
+                    </button>
                 </div>
             </div>
+            <h3 class="rating__title">AVIS CLIENTS</h3>
             <div class="rating">
                 <div class="rating__div">
-                    <h3 class="rating__title">AVIS CLIENTS</h3>
                     <img src="/resources/juliette.png" class="rating__img" />
                     <h4 class="rating__div-title">Juliette</h4>
-                    <div class="course__div-stars">
+                    <div class="rating__div-stars">
                         <img
                             src="/assets/images/star.svg"
                             alt="Image d'une étoile"
@@ -448,7 +441,7 @@
                 <div class="rating__div">
                     <img src="/resources/camille.png" class="rating__img" />
                     <h4 class="rating__div-title">Camille</h4>
-                    <div class="course__div-stars">
+                    <div class="rating__div-stars">
                         <img
                             src="/assets/images/star.svg"
                             alt="Image d'une étoile"
@@ -478,186 +471,207 @@
                     </p>
                 </div>
             </div>
-            <div class="advantages">
-                <h3 class="advantages__title">les avantages Klivio</h3>
-                <div class="advantages__list">
-                    <ul class="advantages__list-unordered">
-                        <li class="advantages__list-item">
+            <div class="advantages__bg">
+                <div class="advantages">
+                    <div class="advantages__list">
+                        <div>
+                            <h3 class="advantages__title">
+                                les avantages Klivio
+                            </h3>
+                        </div>
+                        <ul class="advantages__list-unordered">
+                            <li class="advantages__list-item">
+                                <img
+                                    src="/assets/images/arrow.svg"
+                                    alt="icone d'une flèche"
+                                    class="owncourse__list-icon"
+                                />
+                                <span>Suivi de sa progression</span>
+                            </li>
+                            <li class="advantages__list-item">
+                                <img
+                                    src="/assets/images/pen.svg"
+                                    alt="icone d'un stylo"
+                                    class="owncourse__list-icon"
+                                />
+                                <span
+                                    >Exercices et QCM pour la mise en
+                                    pratique</span
+                                >
+                            </li>
+                            <li class="advantages__list-item">
+                                <img
+                                    src="/assets/images/download-02.svg"
+                                    alt="icone de téléchargement"
+                                    class="owncourse__list-icon"
+                                />
+                                <span
+                                    >Possibilité de télécharger/imprimer les
+                                    formations</span
+                                >
+                            </li>
+                            <li class="advantages__list-item">
+                                <img
+                                    src="/assets/images/star-02.svg"
+                                    alt="icone d'étoile"
+                                    class="owncourse__list-icon"
+                                />
+                                <span>Contenu qualitatif et vérifié</span>
+                            </li>
+                            <li
+                                class="advantages__list-item"
+                                id="advantage__list-span"
+                            >
+                                <img
+                                    src="/assets/images/clock.svg"
+                                    alt="icone d'horloge"
+                                />
+                                <span>Suivi en autonomie, 24h/24, 7j/7</span>
+                            </li>
+                            <li class="advantages__list-item">
+                                <img
+                                    src="/assets/images/chat.svg"
+                                    alt="icone d'une chatbox"
+                                    class="owncourse__list-icon"
+                                />
+                                <span
+                                    >Espace d'échanges dédiés pour poser ses
+                                    questions sur les formations</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="advantages__img"></div>
+                </div>
+            </div>
+            <div class="owncourse__bg">
+                <h3 class="owncourse__title">CRÉEZ VOS FORMATIONS</h3>
+                <div class="owncourse__title-div">
+                    <h3 class="owncourse__title-desktop">
+                        CRÉEZ VOS FORMATIONS
+                    </h3>
+                    <h3 class="owncourse__title-desktop">AVEC KLIVIO</h3>
+                </div>
+                <div class="owncourse">
+                    <img
+                        src="/resources/become-author.png"
+                        alt="Plan sur un bureau d'un employé prenant des notes sur son pc"
+                        class="owncourse__img"
+                    />
+                    <ul class="owncourse__list-unordered">
+                        <li class="owncourse__list-item">
                             <img
-                                src="/assets/images/arrow.svg"
-                                alt="icone d'une flèche"
+                                src="/assets/images/hand.svg"
+                                alt="icone d'une main"
                                 class="owncourse__list-icon"
                             />
-                            <span>Suivi de sa progression</span>
+                            <span
+                                >Commission unique, au pourcentage sur les
+                                ventes</span
+                            >
                         </li>
-                        <li class="advantages__list-item">
+
+                        <li class="owncourse__list-item">
                             <img
-                                src="/assets/images/pen.svg"
+                                src="/assets/images/heart.svg"
+                                alt="icone d'un coeur"
+                                class="owncourse__list-icon"
+                            />
+                            <span>Mise en avant sur la plateforme</span>
+                        </li>
+
+                        <li class="owncourse__list-item">
+                            <img
+                                src="/assets/images/penwhite.svg"
                                 alt="icone d'un stylo"
                                 class="owncourse__list-icon"
                             />
                             <span
-                                >Exercices et QCM pour la mise en pratique</span
+                                >Contrôle total sur le cours : contenu,
+                                prix</span
                             >
                         </li>
-                        <li class="advantages__list-item">
+
+                        <li class="owncourse__list-item">
                             <img
-                                src="/assets/images/download-02.svg"
-                                alt="icone de téléchargement"
+                                src="/assets/images/setting.svg"
+                                alt="icone d'un engrenage"
                                 class="owncourse__list-icon"
                             />
                             <span
-                                >Possibilité de télécharger/imprimer les
-                                formations</span
+                                >Fonctionnalités avancées : espace commentaires,
+                                possibilité de créer des QCM, exercices, vidéos,
+                                téléchargement en PDF, suivi des statistiques
+                                des ventes, gestion de codes promos, gestion de
+                                la facturation, etc</span
                             >
                         </li>
-                        <li class="advantages__list-item">
+
+                        <li class="owncourse__list-item">
                             <img
-                                src="/assets/images/star-02.svg"
-                                alt="icone d'étoile"
-                                class="owncourse__list-icon"
+                                src="/assets/images/border.svg"
+                                alt="icon d'un portrait"
                             />
-                            <span>Contenu qualitatif et vérifié</span>
-                        </li>
-                        <li
-                            class="advantages__list-item"
-                            id="advantage__list-span"
-                        >
-                            <img
-                                src="/assets/images/clock.svg"
-                                alt="icone d'horloge"
-                            />
-                            <span>Suivi en autonomie, 24h/24, 7j/7</span>
-                        </li>
-                        <li class="advantages__list-item">
-                            <img
-                                src="/assets/images/chat.svg"
-                                alt="icone d'une chatbox"
-                                class="owncourse__list-icon"
-                            />
-                            <span
-                                >Espace d'échanges dédiés pour poser ses
-                                questions sur les formations</span
+                            <span class="owncourse__item-span"
+                                >Le professeur reste 100% propriétaire de sa
+                                formation et conserve tous ses droits
+                                d’auteur</span
                             >
                         </li>
                     </ul>
                 </div>
-                <img
-                    src="/resources/avantages.png"
-                    alt="Une femme assis dans son bureau qui sourit"
-                    class="advantages__img"
-                />
             </div>
-            <div class="owncourse">
-                <h3 class="owncourse__title">CRÉEZ VOS FORMATIONS</h3>
-                <img
-                    src="/resources/become-author.png"
-                    alt="Plan sur un bureau d'un employé prenant des notes sur son pc"
-                    class="owncourse__img"
-                />
-                <ul class="owncourse__list-unordered">
-                    <li class="owncourse__list-item">
-                        <img
-                            src="/assets/images/hand.svg"
-                            alt="icone d'une main"
-                            class="owncourse__list-icon"
-                        />
-                        <span
-                            >Commission unique, au pourcentage sur les
-                            ventes</span
-                        >
-                    </li>
-
-                    <li class="owncourse__list-item">
-                        <img
-                            src="/assets/images/heart.svg"
-                            alt="icone d'un coeur"
-                            class="owncourse__list-icon"
-                        />
-                        <span>Mise en avant sur la plateforme</span>
-                    </li>
-
-                    <li class="owncourse__list-item">
-                        <img
-                            src="/assets/images/penwhite.svg"
-                            alt="icone d'un stylo"
-                            class="owncourse__list-icon"
-                        />
-                        <span>Contrôle total sur le cours : contenu, prix</span>
-                    </li>
-
-                    <li class="owncourse__list-item">
-                        <img
-                            src="/assets/images/setting.svg"
-                            alt="icone d'un engrenage"
-                            class="owncourse__list-icon"
-                        />
-                        <span
-                            >Fonctionnalités avancées : espace commentaires,
-                            possibilité de créer des QCM, exercices, vidéos,
-                            téléchargement en PDF, suivi des statistiques des
-                            ventes, gestion de codes promos, gestion de la
-                            facturation, etc</span
-                        >
-                    </li>
-
-                    <li class="owncourse__list-item">
-                        <img
-                            src="/assets/images/border.svg"
-                            alt="icon d'un portrait"
-                        />
-                        <span class="owncourse__item-span"
-                            >Le professeur reste 100% propriétaire de sa
-                            formation et conserve tous ses droits d’auteur</span
-                        >
-                    </li>
-                </ul>
-            </div>
-            <div class="about">
-                <h3 class="about__title">À PROPOS DE KLIVIO</h3>
-                <p class="about__text">
-                    Chez Klivio, nous défendons des valeurs fondamentales qui
-                    définissent notre approche éducative. Nous nous engageons à
-                    assurer une rémunération équitable pour les créateurs de
-                    contenu, reconnaissant la qualité de leur travail.<br />
-                    <br />
-                    Favorisant l'autonomie d'apprentissage, notre plateforme
-                    offre la flexibilité écessaire pour explorer divers sujets.
-                    La transparence est au cœur de notre démarche, garantissant
-                    une clarté totale sur les formations que les instructeurs
-                    proposent. Ensemble, ces valeurs forment le socle d'une
-                    ducation enrichissante et équitable, guidant notre mission
-                    d'offrir des pportunités d'apprentissage de qualité
-                </p>
-            </div>
-            <div class="logo">
-                <img
-                    class="logo__img"
-                    src="/resources/logo.png"
-                    alt="Image du logo du site"
-                />
+            <div class="desktop__about-logo">
+                <div class="about">
+                    <h3 class="about__title">À PROPOS DE KLIVIO</h3>
+                    <p class="about__text">
+                        Chez Klivio, nous défendons des valeurs fondamentales
+                        qui définissent notre approche éducative. Nous nous
+                        engageons à assurer une rémunération équitable pour les
+                        créateurs de contenu, reconnaissant la qualité de leur
+                        travail.<br />
+                        <br />
+                        Favorisant l'autonomie d'apprentissage, notre plateforme
+                        offre la flexibilité écessaire pour explorer divers
+                        sujets. La transparence est au cœur de notre démarche,
+                        garantissant une clarté totale sur les formations que
+                        les instructeurs proposent. Ensemble, ces valeurs
+                        forment le socle d'une ducation enrichissante et
+                        équitable, guidant notre mission d'offrir des
+                        pportunités d'apprentissage de qualité
+                    </p>
+                </div>
+                <div class="logo">
+                    <img
+                        class="logo__img"
+                        src="/resources/logo.png"
+                        alt="Image du logo du site"
+                    />
+                </div>
             </div>
             <div class="contact">
                 <h3 class="contact__title">Nous contacter</h3>
-                <hr />
+
+                <hr class="textarea__hr"">
                 <form action="#" class="form">
-                    <label for="name"></label>
-                    <input
-                        class="form__name"
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Nom"
-                    /><br />
-                    <label for="email"></label>
-                    <input
-                        class="form__email"
-                        type="text"
-                        id="email"
-                        name="email"
-                        placeholder="Email"
-                    />
-                    <br />
+                    <div class="desktop__form">
+                        <input
+                            class="form__name"
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Nom"
+                        /><br class="invisible__flex" />
+
+                        <input
+                            class="form__email"
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <br class="textarea__br" />
                     <textarea
                         class="form__textarea"
                         name="comment"
@@ -679,34 +693,99 @@
                     class="footer__image"
                 />
                 <div class="footer__bloc">
-                    <ul>
+                    <ul class="footer__ul">
                         <li class="footer__list">Mentions légales</li>
-                        <li class="footer__list-item">CGU</li>
-                        <li class="footer__list-item">CGV</li>
-                        <li class="footer__list-item">FAQ</li>
-                        <li class="footer__list-item">Contact</li>
+                        <div class="footer__item-desktop">
+                            <li class="footer__list-item">CGU</li>
+                            <li class="footer__list-item">CGV</li>
+                            <li class="footer__list-item">FAQ</li>
+                            <li class="footer__list-item">Contact</li>
+                        </div>
                     </ul>
                     <ul class="footer__unorderedlist">
-                        <li class="footer__list-alt">Coordonées</li>
-                        <li class="footer__list-item-alt">
-                            1 place république,75003 Paris
-                        </li>
-                        <li class="footer__list-item-alt">01.02.03.04.05</li>
-                        <li class="footer__list-item-alt">contact@klivio.fr</li>
+                        <li class="footer__list-alt">Coordonnées</li>
+                        <div class="footer__item-desktop">
+                            <li
+                                class="footer__list-item-alt list-item-location"
+                            >
+                                <img
+                                    src="/assets/images/location.svg"
+                                    alt=""
+                                    class="footer__list-item-img"
+                                />
+                                <span
+                                    >1 place république,<br />75003 Paris</span
+                                >
+                            </li>
+                            <li class="footer__list-item-alt list-item-number">
+                                <img
+                                    src="/assets/images/call.svg"
+                                    alt=""
+                                    class="footer__list-item-img"
+                                />
+                                <span>01.02.03.04.05</span>
+                            </li>
+                            <li class="footer__list-item-alt">
+                                <img
+                                    src="/assets/images/mailbox.svg"
+                                    alt=""
+                                    class="footer__list-item-img"
+                                />
+                                <span>contact@klivio.fr</span>
+                            </li>
+                        </div>
                     </ul>
                 </div>
+                <div class="footer__buttons">
+                    <button
+                        href="idk yet"
+                        target="_blank"
+                        class="footer__buttons-login"
+                    >
+                        Connexion
+                    </button>
+                    <button
+                        href="idk yet"
+                        target="_blank"
+                        class="footer__buttons-signin"
+                    >
+                        Inscription
+                    </button>
+                </div>
             </div>
-
             <div class="footer__desktop">
-                <hr />
-
-                <ul>
-                    <li>© Klivio - 2025</li>
+                <hr class="footer__mobile-hr" />
+                <div class="footer__desktop-divcopyright">
+                    <ul class="footer__desktop-ulcopyright">
+                        <li>© Klivio - 2025</li>
+                    </ul>
+                </div>
+                <ul class="footer__desktop-ul">
                     <li>Suivez - nous</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <img
+                            src="/assets/images/Social Icons.svg"
+                            alt="icone de facebook"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/assets/images/twitter.svg"
+                            alt="icone de twitter"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/assets/images/Social Icons (1).svg"
+                            alt="icone de instagram"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/assets/images/Vector (2).svg"
+                            alt="icone de linkedin"
+                        />
+                    </li>
                 </ul>
             </div>
         </footer>
