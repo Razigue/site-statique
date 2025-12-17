@@ -70,7 +70,7 @@ body {
             rgba(68, 221, 138, 0.8) 3.11%,
             rgba(21, 183, 226, 0.8) 98.45%
         ),
-        url(/resources/author.png);
+        url("resources/author.png");
     background-size: 100% auto;
     background-position: bottom;
 }
@@ -224,7 +224,7 @@ p.course__text {
     align-self: center;
     width: 20em;
     height: 12.5em;
-    background: url(/resources/img-course.png);
+    background: url(resources/img-course.png);
     display: flex;
     flex-direction: column;
 }
@@ -335,7 +335,7 @@ p.course__text {
     align-items: center;
 }
 .advantages__img {
-    background: url("/resources/avantages.png");
+    background: url("resources/avantages.png");
     background-position: center;
     background-size: cover;
     width: 20.438rem;
@@ -678,7 +678,7 @@ textarea::placeholder {
     color: white;
 }
 .owncourse__img {
-    background: url("/resources/become-author.png");
+    background: url("resources/become-author.png");
     width: 20.25rem;
     height: 15.188rem;
     opacity: 1;
@@ -778,7 +778,7 @@ textarea::placeholder {
                 rgba(68, 221, 138, 0.8) 3.11%,
                 rgba(21, 183, 226, 0.8) 98.45%
             ),
-            url(/assets/images/pexels-polina-zimmerman-3747457\ 1.png);
+            url("assets/images/pexels-polina-zimmerman-3747457\ 1.png");
         background-size: cover;
         background-position: center;
     }
@@ -937,7 +937,7 @@ textarea::placeholder {
         background: linear-gradient(95.98deg, #44dd8a 8.7%, #15b7e2 100%);
     }
     .header__nav-text {
-        background: url("/assets/images/loop.svg") no-repeat right;
+        background: url("assets/images/loop.svg") no-repeat right;
         background-color: var(--darkbluecol);
         border-color: white;
         padding-left: 2%;
@@ -954,7 +954,7 @@ textarea::placeholder {
         margin-bottom: -2%;
     }
     .advantages__img {
-        background: url("/assets/images/pexels-jopwell-2422286\ 1.jpg");
+        background: url("assets/images/pexels-jopwell-2422286\ 1.jpg");
         background-position: center;
         background-size: cover;
         margin-top: 4rem;
@@ -973,7 +973,7 @@ textarea::placeholder {
         padding-top: 1rem;
     }
     .owncourse__img {
-        background: url("/assets/images/pexels-julia-m-cameron-4144923\ \(1\)\ 1.jpg");
+        background: url("assets/images/pexels-julia-m-cameron-4144923\ \(1\)\ 1.jpg");
         width: 45.563rem;
         height: 30.438rem;
         opacity: 1;
