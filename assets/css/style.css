@@ -224,7 +224,7 @@ p.course__text {
     align-self: center;
     width: 20em;
     height: 12.5em;
-    background: url(resources/img-course.png);
+    background: url("resources/img-course.png");
     display: flex;
     flex-direction: column;
 }
