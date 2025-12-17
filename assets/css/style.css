@@ -70,7 +70,7 @@ body {
             rgba(68, 221, 138, 0.8) 3.11%,
             rgba(21, 183, 226, 0.8) 98.45%
         ),
-        url("resources/author.png");
+        url("./assets/images/author.png");
     background-size: 100% auto;
     background-position: bottom;
 }
