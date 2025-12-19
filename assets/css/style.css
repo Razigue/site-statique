@@ -224,7 +224,7 @@ p.course__text {
     align-self: center;
     width: 20em;
     height: 12.5em;
-    background: url("/assets/images/img-course.png");
+    background: url("../images/img-course.png");
     display: flex;
     flex-direction: column;
 }
@@ -334,7 +334,7 @@ p.course__text {
     align-items: center;
 }
 .advantages__img {
-    background: url("/assets/images/avantages.png");
+    background: url("../images/avantages.png");
     background-position: center;
     background-size: cover;
     width: 20.438rem;
@@ -670,7 +670,7 @@ textarea::placeholder {
     color: white;
 }
 .owncourse__img {
-    background: url("/assets/images/become-author.png");
+    background: url("../images/become-author.png");
     width: 20.25rem;
     height: 15.188rem;
     opacity: 1;
@@ -932,7 +932,7 @@ textarea::placeholder {
         background: linear-gradient(95.98deg, #44dd8a 8.7%, #15b7e2 100%);
     }
     .header__nav-text {
-        background: url("/assets/images/loop.svg") no-repeat right;
+        background: url("../images/loop.svg") no-repeat right;
         background-color: var(--darkbluecol);
         border-color: white;
         padding-left: 2%;
@@ -949,7 +949,7 @@ textarea::placeholder {
         margin-bottom: -2%;
     }
     .advantages__img {
-        background: url("/assets/images/advantages_img.svg");
+        background: url("../images/advantages_img.svg");
         background-position: center;
         background-size: cover;
         margin-top: 4rem;
@@ -968,7 +968,7 @@ textarea::placeholder {
         padding-top: 1rem;
     }
     .owncourse__img {
-        background: url("/assets/images/pexels-julia-m-cameron-4144923\ \(1\)\ 1.jpg \(1\)\ 1.jpg");
+        background: url("../images/pexels-julia-m-cameron-4144923\ \(1\)\ 1.jpg \(1\)\ 1.jpg");
         width: 45.563rem;
         height: 30.438rem;
         opacity: 1;
