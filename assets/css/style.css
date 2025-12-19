@@ -70,7 +70,7 @@ body {
             rgba(68, 221, 138, 0.8) 3.11%,
             rgba(21, 183, 226, 0.8) 98.45%
         ),
-        url("../images/author.png");
+        url("assets/images/author.png");
     background-size: 100% auto;
     background-position: bottom;
 }
@@ -224,7 +224,7 @@ p.course__text {
     align-self: center;
     width: 20em;
     height: 12.5em;
-    background: url("resources/img-course.png");
+    background: url("/assets/images/img-course.png");
     display: flex;
     flex-direction: column;
 }
@@ -335,7 +335,7 @@ p.course__text {
     align-items: center;
 }
 .advantages__img {
-    background: url("resources/avantages.png");
+    background: url("/assets/images/avantages.png");
     background-position: center;
     background-size: cover;
     width: 20.438rem;
@@ -678,7 +678,7 @@ textarea::placeholder {
     color: white;
 }
 .owncourse__img {
-    background: url("resources/become-author.png");
+    background: url("/assets/images/become-author.png");
     width: 20.25rem;
     height: 15.188rem;
     opacity: 1;
@@ -747,7 +747,7 @@ textarea::placeholder {
     }
     .header__list-link {
         display: block;
-        margin-left: 2em;
+        margin-left: 10em;
         color: white;
         text-decoration: none;
     }
@@ -760,6 +760,7 @@ textarea::placeholder {
     }
     .header__list-item-log {
         display: flex;
+        gap: 3rem;
         margin-right: 1rem;
         justify-content: space-evenly;
         width: 30%;
@@ -778,7 +779,7 @@ textarea::placeholder {
                 rgba(68, 221, 138, 0.8) 3.11%,
                 rgba(21, 183, 226, 0.8) 98.45%
             ),
-            url("assets/images/pexels-polina-zimmerman-3747457\ 1.png");
+            url("/assets/images/pexels-polina-zimmerman-3747457\ 1.png");
         background-size: cover;
         background-position: center;
     }
@@ -847,6 +848,7 @@ textarea::placeholder {
         justify-content: flex-start;
     }
     .rating {
+        margin-bottom: 4rem;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -869,7 +871,7 @@ textarea::placeholder {
         line-height: 1.875rem;
     }
     .rating__div {
-        width: 50%;
+        width: 47%;
     }
     .rating__img {
         align-self: flex-start;
@@ -885,24 +887,25 @@ textarea::placeholder {
         margin-left: 5.1rem;
         margin-top: 0.3rem;
     }
+    .owncourse {
+        height: 40.063rem;
+    }
     .owncourse__title {
         display: none;
     }
     .owncourse__title-desktop {
         display: flex;
         width: 100%;
-        justify-content: flex-end;
+        justify-content: flex-start;
         display: initial;
         font-family: "Montserrat", sans-serif;
         font-weight: 900;
         color: var(--darkbluecol);
-        font-size: 1.875rem;
+        font-size: 2.5rem;
         line-height: 2.25rem;
         letter-spacing: -1.5%;
         text-align: center;
         text-transform: uppercase;
-        margin-bottom: -5rem;
-        margin-left: 23rem;
     }
     .owncourse__title-div {
         display: flex;
@@ -937,7 +940,7 @@ textarea::placeholder {
         background: linear-gradient(95.98deg, #44dd8a 8.7%, #15b7e2 100%);
     }
     .header__nav-text {
-        background: url("assets/images/loop.svg") no-repeat right;
+        background: url("/assets/images/loop.svg") no-repeat right;
         background-color: var(--darkbluecol);
         border-color: white;
         padding-left: 2%;
@@ -954,7 +957,7 @@ textarea::placeholder {
         margin-bottom: -2%;
     }
     .advantages__img {
-        background: url("assets/images/pexels-jopwell-2422286\ 1.jpg");
+        background: url("/assets/images/advantages_img.svg");
         background-position: center;
         background-size: cover;
         margin-top: 4rem;
@@ -973,7 +976,7 @@ textarea::placeholder {
         padding-top: 1rem;
     }
     .owncourse__img {
-        background: url("assets/images/pexels-julia-m-cameron-4144923\ \(1\)\ 1.jpg");
+        background: url("/assets/images/pexels-julia-m-cameron-4144923\ \(1\)\ 1.jpg \(1\)\ 1.jpg");
         width: 45.563rem;
         height: 30.438rem;
         opacity: 1;
@@ -985,6 +988,7 @@ textarea::placeholder {
         margin-left: 16rem;
     }
     .desktop__about-logo {
+        height: 46.25rem;
         display: flex;
         flex-direction: row;
     }
