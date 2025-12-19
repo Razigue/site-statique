@@ -70,7 +70,7 @@ body {
             rgba(68, 221, 138, 0.8) 3.11%,
             rgba(21, 183, 226, 0.8) 98.45%
         ),
-        url("/assets/images/author.png");
+        url("../images/author.png");
     background-size: 100% auto;
     background-position: bottom;
 }
@@ -317,8 +317,7 @@ p.course__text {
     letter-spacing: -1.5%;
     text-align: center;
 }
-.rating__div-stars {
-}
+
 .rating__text {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -654,13 +653,6 @@ p.course__text {
     margin-bottom: 1rem;
 }
 
-.list-item-location {
-}
-
-.list-item-number {
-}
-.footer__unorderedlist :last-child {
-}
 input::placeholder {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -779,7 +771,7 @@ textarea::placeholder {
                 rgba(68, 221, 138, 0.8) 3.11%,
                 rgba(21, 183, 226, 0.8) 98.45%
             ),
-            url("./assets/images/bg-header.png");
+            url("/assets/images/bg-header.png");
         background-size: cover;
         background-position: center;
     }
